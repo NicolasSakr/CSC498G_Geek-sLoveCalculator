@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="seeRes"
+    android:onClick="test"
     tools:context=".MainActivity">
 
     <Spinner
@@ -52,7 +52,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="seeRes"
+        android:onClick="test"
         android:text="See Results"
         app:layout_constraintBottom_toTopOf="@+id/Grid"
         app:layout_constraintEnd_toEndOf="parent"
@@ -229,6 +229,5 @@
 
 
     </androidx.gridlayout.widget.GridLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

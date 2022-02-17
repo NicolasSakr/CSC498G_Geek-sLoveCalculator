@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         choice = i;
-        String tst = username.getText().toString() + " chainged language to " + adapterView.getItemAtPosition(i).toString();
+        String tst = username.getText().toString() + " chainged to " + adapterView.getItemAtPosition(i).toString();
         Toast.makeText(adapterView.getContext(), tst, Toast.LENGTH_LONG).show();
 
     }
@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     }
 
-    public void seeRes(View view){
+
+    public void test(View view){
         if(count>6) count = 0;
         count++;
         double random = Math.random();
@@ -428,6 +429,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd.setText(rand);
             }
         }
-
     }
 }

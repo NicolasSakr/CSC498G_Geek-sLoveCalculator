@@ -58,9 +58,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         if(count==1){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString();
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i0);
@@ -68,9 +67,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t02);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i0);
@@ -78,9 +76,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t02);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i0);
@@ -88,9 +85,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t02);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i0);
@@ -98,9 +94,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t02);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i0);
@@ -108,9 +103,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t02);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i0);
@@ -120,9 +114,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }else if(count==2){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i1);
@@ -130,9 +123,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t12);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i1);
@@ -140,9 +132,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t12);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i1);
@@ -150,9 +141,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t12);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i1);
@@ -160,9 +150,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t12);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i1);
@@ -170,9 +159,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t12);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(un);
+                name.setText(username.getText().toString();
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i1);
@@ -182,9 +170,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }else if(count==3){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i2);
@@ -192,9 +179,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t22);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i2);
@@ -202,9 +188,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t22);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i2);
@@ -212,9 +197,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t22);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i2);
@@ -222,9 +206,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t22);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i2);
@@ -232,9 +215,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t22);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t20);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t21);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i2);
@@ -244,9 +226,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }else if(count==4){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i3);
@@ -254,9 +235,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t32);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i3);
@@ -264,9 +244,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t32);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i3);
@@ -274,9 +253,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t32);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i3);
@@ -284,9 +262,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t32);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i3);
@@ -294,9 +271,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t32);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(un);
+                name.setText(username.getText().toString();
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i3);
@@ -306,9 +282,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }else if(count==5){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i4);
@@ -316,9 +291,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t42);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i4);
@@ -326,9 +300,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t42);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i4);
@@ -336,9 +309,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t42);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i4);
@@ -346,9 +318,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t42);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i4);
@@ -356,9 +327,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t42);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t40);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t41);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i4);
@@ -368,9 +338,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }else if(count==6){
             if (choice == 0) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i5);
@@ -378,9 +347,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t52);
                 rnd.setText(rand);
             }else if(choice == 1) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("HTML");
                 img = (ImageView) findViewById(R.id.i5);
@@ -388,9 +356,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t52);
                 rnd.setText(rand);
             }else if(choice == 2) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("JavaScript");
                 img = (ImageView) findViewById(R.id.i5);
@@ -398,9 +365,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t52);
                 rnd.setText(rand);
             }else if(choice == 3) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("CSS");
                 img = (ImageView) findViewById(R.id.i5);
@@ -408,9 +374,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t52);
                 rnd.setText(rand);
             }else if(choice == 4) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("Python");
                 img = (ImageView) findViewById(R.id.i5);
@@ -418,9 +383,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd = (TextView) findViewById(R.id.t52);
                 rnd.setText(rand);
             }else if(choice == 5) {
-                String un = username.getText().toString();
                 name = (TextView) findViewById(R.id.t50);
-                name.setText(un);
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t51);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i5);

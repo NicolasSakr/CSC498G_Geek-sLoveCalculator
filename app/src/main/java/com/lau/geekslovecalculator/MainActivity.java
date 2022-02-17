@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if(count==1){
             if (choice == 0) {
                 name = (TextView) findViewById(R.id.t00);
-                name.setText(username.getText().toString();
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t01);
                 lang.setText("java");
                 img = (ImageView) findViewById(R.id.i0);
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd.setText(rand);
             }else if(choice == 5) {
                 name = (TextView) findViewById(R.id.t10);
-                name.setText(username.getText().toString();
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t11);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i1);
@@ -272,7 +272,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 rnd.setText(rand);
             }else if(choice == 5) {
                 name = (TextView) findViewById(R.id.t30);
-                name.setText(username.getText().toString();
+                name.setText(username.getText().toString());
                 lang = (TextView) findViewById(R.id.t31);
                 lang.setText("PHP");
                 img = (ImageView) findViewById(R.id.i3);
